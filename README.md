@@ -1,6 +1,6 @@
 # promass-core 🚀 
 
-Esta aplicación contiene el backend de una app tipo Blogspot, hecho con buenas practicas y arquitectura MVC.
+Esta aplicación contiene el backend de una app tipo Blogspot, hecho con buenas practicas y arquitectura de monolíto.
 
 ## Requisitos
 Este proyecto ha sido realizado con NodeJs v20.10.0 + Express(last version) + TypeOrm(last version)
