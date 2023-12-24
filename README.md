@@ -5,7 +5,7 @@ Esta aplicación contiene el backend de una app tipo Blogspot, hecho con buenas 
 ## Requisitos
 Este proyecto ha sido realizado con NodeJs v20.10.0 + Express(last version) + TypeOrm(last version)
 
-1.-Tener instalado el cliente de PostgreSQL.
+1.- Tener instalado el cliente de PostgreSQL.
 <br>
 2.- Tener instalado el cliente de Docker y la aplicación de escritorio (de preferencia) o alguna alternativa para gestionar contenedores.
 <br>
@@ -15,7 +15,7 @@ Este proyecto ha sido realizado con NodeJs v20.10.0 + Express(last version) + Ty
 1.- Descargar o clonar el repositorio.
 <br>
 2.- Ejecutar el comando <code>npm install</code>
-<br>
+
 A continuación ejecutar los siguientes comandos para configurar la imagen de Docker:
 <br>
 3.- Descarga la imagen oficial de PostgreSQL: <code>docker pull postgres</code>
@@ -28,7 +28,7 @@ A continuación ejecutar los siguientes comandos para configurar la imagen de Do
 
 ## Pasos para levantar el proyecto
 
-1.-Ejecutar el comando <code>npm start</code> al ejecutar este comando se hace la sincronización de la base de datos y las migraciones correspondientes.
+1.- Ejecutar el comando <code>npm start</code> esto inicia el proyecto, hace la sincronización de la base de datos, las migraciones correspondientes y crea la carpeta dist con el transpilado a Javascript.
 
 ## Notas
 
