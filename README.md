@@ -17,12 +17,15 @@ Este proyecto ha sido realizado con NodeJs v20.10.0 + Express(last version) + Ty
 2.- Ejecutar el comando <code>npm install<code>
 <br>
 2.- Ejecutar el comando "npm install"
-
-A continuación ejecutar los soguientes comandos para configurar la imagen de docker:
+<br>
+A continuación ejecutar los siguientes comandos para configurar la imagen de Docker:
 <br>
 1.- Descarga la imagen oficial de PostgreSQL: <code>docker pull postgres<code>
+<br>
 1.- Verificar el estado del contenedor: <code>docker ps<code> 
-1.- Este comando crea la imagen, la instancia y la de la base de datos: <code>docker run -d --name mi-postgres-container -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=dev.PROMASS_BLOG -p 5432:5432 postgres<code> (en el comando donde dice "mi-postgres-container pueden poner cualquier nombre a su contenedor).
+1.- Este comando crea la imagen, la instancia y la de la base de datos: <code>docker run -d --name mi-postgres-container -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=dev.PROMASS_BLOG -p 5432:5432 postgres<code> 
+<br>
+(En el comando donde dice "mi-postgres-container pueden poner cualquier nombre a su contenedor).
 
 ## Pasos para levantar el proyecto
 
